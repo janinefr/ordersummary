@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;700&family=Poppins:wght@200;300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+
+
+body{
+    background-color:hsl(225, 100%, 94%) ;
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: repeat-x;
+    background-size: 1600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 45px;
+}
+
+.radius {
+    border-radius: 25px 25px 0px 0px; /* Valor em pixels para a curvatura das bordas */
+    width:500px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 0px 0px 25px 25px;
+    padding: 100px;
+    padding-bottom: 40px;
+
+    width: 300px;
+}
+
+.conteudo{
+    text-align: center;
+    margin-top: -50px;
+
+}
+
+.conteudo h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 30px;
+    color: hsl(224, 23%, 55%);
+}
+
+
+.annual-plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px 75px 20px 75px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+}
+
+.icon{
+    padding: 10px;
+    margin-left: -50px;
+    margin-right: 10px;
+}
+
+.annual-plan h3{
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.annual-button{
+    background: none;
+    border: none;
+    margin-left: 50px;
+    margin-right: -50px;
+    cursor: pointer;
+    color: hsl(245, 75%, 52%);
+    text-decoration:underline;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.annual-button:hover {
+    color: hsl(224, 23%, 55%); 
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+  
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#button-one{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 85px 13px 85px;
+    white-space: nowrap;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#button-one:hover {
+    background-color: hsl(224, 23%, 55%); 
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+
+#button-two{
+    text-align: center;
+    margin-top: 20px;
+    background: none;
+    border: none;
+    color: hsl(224, 23%, 55%);
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#button-two:hover {
+    color: hsl(245, 75%, 52%); 
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+footer p{
+    font-size: 12px;
+    padding: 20px 0;
+
+}
