@@ -1,5 +1,7 @@
 # Frontend Mentor - Order summary card
 
+https://janinefr.github.io/ordersummary/
+
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
